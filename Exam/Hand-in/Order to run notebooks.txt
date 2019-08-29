@@ -1,0 +1,9 @@
+Run notebooks in this order:
+1. scraping_rt.ipynb		(Creates 'rt_clean.pkl')
+2. scraping_bom.ipynb		(Creates 'bom_clean.pkl')
+3. scraping_bom_best.ipynb	(Creates 'actors.pkl' and 'directors.pkl')
+4. getting_imdb.ipynb		(Creates 'imdb.pkl')
+5. merging.ipynb		(Creates 'full.pkl' using the above)
+6. scraping_reddit.ipynb	(Creates 'full_w_sentiment.pkl using 'full.pkl')
+7. figures.ipynb		(Uses 'full_w_sentiment.pkl')
+8. machine_learning.ipynb	(Uses 'full_w_sentiment.pkl')
